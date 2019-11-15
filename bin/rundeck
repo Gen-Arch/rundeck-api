@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require "rundeck/api/cli"
+
+cli = Rundeck::API::CLI.new
+cli.run!
